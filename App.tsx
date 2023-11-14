@@ -35,7 +35,7 @@ function App(): JSX.Element {
     if (startTimer) {
       interval = setInterval(() => {
         setTime(time - 1);
-      }, 10);
+      }, 1000);
     } else {
       clearInterval(interval);
     }
